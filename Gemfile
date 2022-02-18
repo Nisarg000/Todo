@@ -37,7 +37,15 @@ gem "jbuilder"
 # gem "bcrypt", "~> 3.1.7"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
+# gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem 'tzinfo-data'
+gem 'tzinfo'
+# gem 'tzinfo-data', platforms: [:x64_mingw, :mingw, :mswin]
+# gem 'tzinfo-data', '1.2014.5'
+#  gem 'tzinfo-data',  2.0.4
+
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
