@@ -33,3 +33,8 @@ Compile initial Tailwind build
 But I was not properly able to do it
 https://stackoverflow.com/a/43781956/14816509 #solves bin error
 
+# the fucking rails server stopped working when I booted my lappy the next morning
+bundle install
+ruby bin\rails server # this didnt fucking help either
+gem install libv8 #doesnt fucking install this either
+gem install therubyracer #doesnt fucking install this either
