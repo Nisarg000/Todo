@@ -130,7 +130,9 @@ GEM
       net-protocol
       timeout
     nio4r (2.5.8)
-    nokogiri (1.13.1-x64-mingw-ucrt)
+    nokogiri (1.13.1-x64-mingw32)
+      racc (~> 1.4)
+    nokogiri (1.13.1-x64-unknown)
       racc (~> 1.4)
     public_suffix (4.0.6)
     puma (5.6.2)
@@ -186,6 +188,10 @@ GEM
     stimulus-rails (1.0.3)
       railties (>= 6.0.0)
     strscan (3.0.1)
+    tailwindcss-rails (2.0.6)
+      railties (>= 6.0.0)
+    tailwindcss-rails (2.0.6-x64-mingw32)
+      railties (>= 6.0.0)
     thor (1.2.1)
     timeout (0.2.0)
     turbo-rails (1.0.1)
@@ -193,6 +199,8 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2021.5)
+      tzinfo (>= 1.0.0)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -210,7 +218,8 @@ GEM
     zeitwerk (2.5.4)
 
 PLATFORMS
-  x64-mingw-ucrt
+  x64-mingw32
+  x64-unknown
 
 DEPENDENCIES
   bootsnap
@@ -224,13 +233,14 @@ DEPENDENCIES
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
+  tailwindcss-rails (~> 2.0)
   turbo-rails
   tzinfo-data
   web-console
   webdrivers
 
 RUBY VERSION
-   ruby 3.1.0p0
+   ruby 2.7.5p203
 
 BUNDLED WITH
    2.3.7
