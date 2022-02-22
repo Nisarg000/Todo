@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "task_manager",
+            "database": "${workspaceFolder:demoground}/db/development.sqlite3"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
