@@ -4,7 +4,11 @@
             "previewLimit": 50,
             "driver": "SQLite",
             "name": "task_manager",
+<<<<<<< HEAD
             "database": "D:\\downloads\\taskify-main\\db\\development.sqlite3"
+=======
+            "database": "${workspaceFolder:taskify-main}/db/development.sqlite3"
+>>>>>>> f771fabf3833b3bc82b0760d504d89ee9c98f041
         }
     ]
 }

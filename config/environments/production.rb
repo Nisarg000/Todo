@@ -60,7 +60,11 @@ Rails.application.configure do
 
   # Use a real queuing backend for Active Job (and separate queues per environment).
   # config.active_job.queue_adapter     = :resque
+<<<<<<< HEAD
   # config.active_job.queue_name_prefix = "taskify_production"
+=======
+  # config.active_job.queue_name_prefix = "task_manager_production"
+>>>>>>> f771fabf3833b3bc82b0760d504d89ee9c98f041
 
   config.action_mailer.perform_caching = false
 

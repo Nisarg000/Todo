@@ -2,8 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 @layer components {
     .btn {
         @apply mt-3 rounded-lg py-1 px-5 inline-block font-medium cursor-pointer;
     }
 }
+=======
+/*
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-200;
+  }
+}
+
+*/
+>>>>>>> f771fabf3833b3bc82b0760d504d89ee9c98f041

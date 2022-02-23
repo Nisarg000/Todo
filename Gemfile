@@ -1,10 +1,17 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+<<<<<<< HEAD
 ruby "2.7.5"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.1"
+=======
+ruby "3.1.0"
+
+# Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
+gem "rails", "~> 7.0.2", ">= 7.0.2.2"
+>>>>>>> f771fabf3833b3bc82b0760d504d89ee9c98f041
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
@@ -37,7 +44,19 @@ gem "jbuilder"
 # gem "bcrypt", "~> 3.1.7"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+<<<<<<< HEAD
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
+=======
+# gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem 'tzinfo-data'
+gem 'tzinfo'
+# gem 'tzinfo-data', platforms: [:x64_mingw, :mingw, :mswin]
+# gem 'tzinfo-data', '1.2014.5'
+#  gem 'tzinfo-data',  2.0.4
+
+>>>>>>> f771fabf3833b3bc82b0760d504d89ee9c98f041
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
