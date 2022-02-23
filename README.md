@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 
-<!-- ![finished app](images/finished_app.png) -->
+![finished app](images/finaloutput.png)
 =======
 # README
 
