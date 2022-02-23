@@ -1,2 +1,2 @@
-# Todo
-A todo list using rails, tailwind css,sqlite, node, yarn and hotpotato
+
+![finished app](images/finished_app.png)
