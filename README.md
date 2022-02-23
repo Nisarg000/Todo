@@ -3,23 +3,15 @@
 =======
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README contains the steps which are necessary to get the application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+* Ruby version: check my gem file
 
 * System dependencies
 
 * Configuration
 
-* Database creation
+* Database creation: I used the SQLtools extension in vscode then connected my db by selecting the 'development.sqlite3' file from my 'db' folder. I named my database as task_manager.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* Deployment instructions: use cmd( do not use git bash) and type 'rails s' to get my app up and running(ofcourse remove the quotations for the execute command)  
